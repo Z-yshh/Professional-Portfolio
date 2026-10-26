@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ricky Jimenea – Sales & Client Success</title>
+<meta name="description" content="Sales and client success professional: outbound sales, retention, escalations and Salesforce pipelines.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F7FA;--surface:#fff;--ink:#0F1B33;--muted:#55627A;--line:#DCE2EC;--accent:#0B7A75;--accent-ink:#fff;--warn:#C7821C;--hbg:rgba(245,247,250,.92);
+--disp:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C1424;--surface:#131D33;--ink:#EAF0FA;--muted:#9AA8C2;--line:#25324D;--accent:#3FD0B5;--accent-ink:#06231E;--warn:#F0B35A;--hbg:rgba(12,20,36,.92);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C1424;--surface:#131D33;--ink:#EAF0FA;--muted:#9AA8C2;--line:#25324D;--accent:#3FD0B5;--accent-ink:#06231E;--warn:#F0B35A;--hbg:rgba(12,20,36,.92);color-scheme:dark}
+html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hbg);z-index:10}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--disp);line-height:1.1;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:10px}
+section{padding:68px 0 8px}
+.lede{color:var(--muted);max-width:60ch;margin:0 0 28px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:var(--hbg);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:16px;height:64px}
+.logo{font:700 1.15rem var(--disp);text-decoration:none;margin-right:auto}
+nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0}
+nav a{display:block;padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--muted);font-weight:500}
+nav a:hover{color:var(--ink);background:var(--line)}
+.icon{width:42px;height:42px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;font-size:1.1rem}
+#menu{display:none}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;font-weight:600;text-decoration:none;border:1px solid var(--accent);cursor:pointer;font:600 1rem var(--body)}
+.btn.main{background:var(--accent);color:var(--accent-ink)}
+.btn.main:hover{filter:brightness(1.08)}
+.btn.alt{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.alt:hover{border-color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;padding:64px 0 24px}
+.hero h1{font-size:clamp(2.4rem,5.6vw,3.9rem);margin-bottom:18px}
+.hero p{color:var(--muted);max-width:46ch;margin:0 0 26px;font-size:1.08rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.board{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 22px 18px}
+.stages,.lane-track{display:grid;grid-template-columns:repeat(4,1fr)}
+.stages{font-size:.82rem;color:var(--muted);font-weight:500;margin-bottom:6px}
+.lane{margin:14px 0}
+.lane-name{font-weight:600;font-size:.93rem;margin-bottom:6px}
+.lane-track{position:relative;height:38px;background:var(--bg);border-radius:10px;border:1px solid var(--line)}
+.lane-track i{border-right:1px dashed var(--line)}
+.lane-track i:last-child{border:0}
+.deal{position:absolute;top:4px;left:4px;height:28px;width:calc(25% - 8px);border-radius:8px;background:var(--ink);color:var(--bg);font-size:.76rem;font-weight:600;display:flex;align-items:center;justify-content:center;transition:left .9s cubic-bezier(.6,0,.2,1),background .4s;white-space:nowrap;overflow:hidden}
+.deal.risk{background:var(--warn);color:#201300}
+.deal.won{background:var(--accent);color:var(--accent-ink)}
+.board small{display:block;color:var(--muted);margin-top:10px;font-size:.8rem}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:14px;background:var(--surface);margin-top:40px}
+.stat{padding:22px;border-right:1px solid var(--line)}
+.stat:last-child{border:0}
+.stat b{display:block;font:700 2.2rem/1 var(--disp);color:var(--accent);margin-bottom:6px}
+.stat span{color:var(--muted);font-size:.9rem;display:block}
+.acc{border:1px solid var(--line);border-radius:14px;background:var(--surface);margin-bottom:12px;overflow:hidden}
+.acc>button{all:unset;box-sizing:border-box;width:100%;display:flex;align-items:center;gap:14px;padding:20px 22px;cursor:pointer}
+.acc>button:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.acc h3{font-size:1.2rem;flex:1}
+.acc .meta{color:var(--muted);font-size:.9rem;font-weight:500}
+.chev{width:12px;height:12px;border-right:2.5px solid var(--accent);border-bottom:2.5px solid var(--accent);transform:rotate(45deg);transition:transform .3s;flex:none;margin:-4px 4px 0}
+.acc.open .chev{transform:rotate(-135deg);margin-top:4px}
+.panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease}
+.acc.open .panel{grid-template-rows:1fr}
+.panel>div{overflow:hidden}
+.inner{padding:0 22px 22px;border-top:1px solid var(--line);padding-top:18px}
+.inner dl{margin:0;display:grid;grid-template-columns:130px 1fr;gap:10px 18px}
+.inner dt{font-weight:600}
+.inner dd{margin:0;color:var(--muted)}
+.inner dd.res{color:var(--ink);font-weight:600}
+.inner ul{margin:0;padding-left:20px;color:var(--muted)}
+.inner li{margin-bottom:6px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{font-size:1.25rem;margin-bottom:10px;color:var(--accent)}
+.card ul{margin:0;padding-left:18px;color:var(--muted)}
+.contact{background:var(--ink);color:var(--bg);border-radius:20px;padding:44px 36px;margin:68px 0 40px}
+.contact h2{color:var(--bg)}
+.contact p{max-width:52ch;opacity:.85;margin:0 0 24px}
+.contact .btn.alt{color:var(--bg);border-color:rgba(255,255,255,.35)}
+.contact .btn.main{background:var(--accent);color:var(--accent-ink)}
+#msg{margin-left:6px;font-size:.9rem}
+footer{color:var(--muted);font-size:.9rem;padding:8px 0 36px}
+@media (max-width:820px){
+ .hero{grid-template-columns:1fr;gap:32px;padding-top:40px}
+ .stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+ .cols{grid-template-columns:1fr}
+ .inner dl{grid-template-columns:1fr;gap:2px}.inner dd{margin-bottom:10px}
+ #menu{display:block}
+ nav{position:absolute;top:64px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);display:none;padding:8px 16px 14px}
+ nav.open{display:block}nav ul{flex-direction:column}
+ .acc .meta{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="logo" href="#top">Ricky Jimenea</a>
+ <nav id="nav" aria-label="Main"><ul>
+  <li><a href="#results">Results</a></li><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+ </ul></nav>
+ <button class="icon" id="theme" aria-label="Switch light or dark theme">◐</button>
+ <button class="icon" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+</div></header>
+
+<main id="top" class="wrap">
+ <div class="hero">
+  <div>
+   <h1>I close the deal, then I keep the client.</h1>
+   <p>Sales and client success professional with 5+ years of client-facing work: outbound calls, renewals, escalations and clean Salesforce pipelines. Today I’m on live calls with US customers and hitting weekly quota.</p>
+   <div class="cta"><a class="btn main" href="#contact">Hire me for your sales team</a><a class="btn alt" href="#results">See my results</a></div>
+  </div>
+  <div class="board" aria-label="Animated example of deals moving through a sales pipeline">
+   <div class="stages"><span>Contact</span><span>Follow up</span><span>Commit</span><span>Closed</span></div>
+   <div class="lane"><div class="lane-name">Outbound lead</div><div class="lane-track"><i></i><i></i><i></i><i></i><div class="deal" data-name="Cold call">Cold call</div></div></div>
+   <div class="lane"><div class="lane-name">Renewal</div><div class="lane-track"><i></i><i></i><i></i><i></i><div class="deal" data-name="Renewal">Renewal</div></div></div>
+   <div class="lane"><div class="lane-name">Escalated customer</div><div class="lane-track"><i></i><i></i><i></i><i></i><div class="deal risk" data-name="At risk">At risk</div></div></div>
+   <small>How I work: every deal gets a next step, every upset customer gets a same-day answer.</small>
+  </div>
+ </div>
+
+ <div class="stats">
+  <div class="stat"><b>25%</b><span>retention lift at VXI Global Solutions</span></div>
+  <div class="stat"><b>30%</b><span>faster cross-team response at Heatherglade</span></div>
+  <div class="stat"><b>100K+</b><span>members in a community I built from zero</span></div>
+  <div class="stat"><b>Weekly</b><span>sales quota met consistently at TaskUs</span></div>
+ </div>
+
+ <section id="results">
+  <h2>Results, and how I got them</h2>
+  <p class="lede">Four situations, what I did, and what changed. Open any one.</p>
+  <div class="acc open"><button aria-expanded="true"><h3>Turning escalations into retention</h3><span class="meta">VXI Global Solutions</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><dl>
+    <dt>Situation</dt><dd>A full escalations caseload on top of monthly renewal, upsell and cross-sell targets.</dd>
+    <dt>What I did</dt><dd>Stopped treating each complaint as a one-off. I dug past the surface issue to the root cause and rebuilt how I resolved it.</dd>
+    <dt>Result</dt><dd class="res">25% increase in customer retention (loyalty and repeat engagement).</dd>
+   </dl></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Stopping churn before it starts</h3><span class="meta">eCommerce client, Salesforce</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><dl>
+    <dt>Situation</dt><dd>Billing, shipping, return and refund problems were turning happy buyers into cancellations.</dd>
+    <dt>What I did</dt><dd>Tracked every order through its lifecycle stages, spotted trouble early and fixed it directly with the customer.</dd>
+    <dt>Result</dt><dd class="res">Fewer cancellations and refund risk, with clean records for accurate revenue reporting.</dd>
+   </dl></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>A pipeline where nobody gets lost</h3><span class="meta">Real estate client</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><dl>
+    <dt>Situation</dt><dd>Leads and negotiations were stalling because follow-up depended on memory.</dd>
+    <dt>What I did</dt><dd>Built a structured follow-up tracking system from scratch and kept direct contact with every buyer, seller and prospect through closing.</dd>
+    <dt>Result</dt><dd class="res">Lead drop-off and stalled negotiations eliminated.</dd>
+   </dl></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Faster answers across teams</h3><span class="meta">Heatherglade</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><dl>
+    <dt>Situation</dt><dd>Information was getting stuck between departments and the community they served.</dd>
+    <dt>What I did</dt><dd>Built communication protocols from the ground up and arbitrated competing priorities across teams.</dd>
+    <dt>Result</dt><dd class="res">Response times cut by 30%, and every project delivered on time with zero delays.</dd>
+   </dl></div></div></div></div>
+ </section>
+
+ <section id="experience">
+  <h2>Experience</h2>
+  <p class="lede">Reverse chronological. Open a role for the details.</p>
+  <div class="acc"><button aria-expanded="false"><h3>Sales Account Executive, TaskUs</h3><span class="meta">May 2026 – Present</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><ul><li>Run high-volume outbound calls for a US food-delivery campaign, handling questions and objections in real time.</li><li>Manage a personal pipeline end-to-end with prioritized follow-ups and clear next steps.</li><li>Consistently meet weekly sales quota with a repeatable follow-up cadence.</li></ul></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Real Estate Virtual Assistant</h3><span class="meta">Jul 2025 – Jul 2026</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><ul><li>Kept regular contact with every active buyer, seller and prospect from inquiry to closing.</li><li>Built a follow-up tracking system from scratch.</li><li>Coordinated appointments, showings, closing documents and timelines; kept CRM records accurate and re-engaged inactive leads.</li></ul></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Sales Support Specialist, eCommerce client</h3><span class="meta">Oct 2024 – Dec 2025</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><ul><li>Owned order processing, payment confirmations and post-purchase follow-ups in Salesforce.</li><li>Resolved billing, shipping, return and refund issues directly with customers.</li><li>Acted as the day-to-day link between customers, sales operations and fulfillment.</li></ul></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Account Associate, VXI Global Solutions</h3><span class="meta">Jan 2023 – Oct 2024</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><ul><li>Team go-to for escalated and high-volume inquiries, holding service quality under sustained pressure.</li><li>Closed renewals, upsells and cross-sells against monthly targets.</li><li>Kept audit-ready records used for organizational and financial reporting.</li></ul></div></div></div></div>
+  <div class="acc"><button aria-expanded="false"><h3>Client Success Manager, Heatherglade</h3><span class="meta">May 2021 – Dec 2022</span><i class="chev"></i></button>
+   <div class="panel"><div><div class="inner"><ul><li>Grew a Discord community from zero to 100,000+ members, plus 15,000+ Facebook and 25,000+ X followers.</li><li>Directed cross-team deliverables and ran recurring quality and data-integrity audits.</li></ul></div></div></div></div>
+ </section>
+
+ <section id="skills">
+  <h2>What I bring to a sales team</h2>
+  <p class="lede">Three jobs most sales teams need done well, and one person who can do all of them.</p>
+  <div class="cols">
+   <div class="card"><h3>Sell</h3><ul><li>Outbound calls and objection handling</li><li>Personal pipeline management</li><li>Quota attainment</li><li>Renewals, upsell and cross-sell</li></ul></div>
+   <div class="card"><h3>Keep</h3><ul><li>Customer retention and churn prevention</li><li>Escalations and calm de-escalation</li><li>Root-cause problem solving</li><li>Follow-up systems</li></ul></div>
+   <div class="card"><h3>Run</h3><ul><li>Salesforce CRM and pipeline stages</li><li>Order, payment and refund handling</li><li>Audit-ready records and reporting</li><li>Accountancy foundation for accuracy</li></ul></div>
+  </div>
+ </section>
+
+ <section id="contact" class="contact" style="padding:44px 36px">
+  <h2>Let’s talk about your sales team.</h2>
+  <p>I’m open to sales, account management and client success roles. Send me a note and I’ll reply with how I’d approach your pipeline.</p>
+  <div class="cta">
+   <a class="btn main" href="mailto:jimenea.ricky.socmed@gmail.com">Email Ricky</a>
+   <a class="btn alt" href="tel:+639459742889">Call +63 945 974 2889</a>
+   <button class="btn alt" id="copy">Copy email</button><span id="msg" role="status"></span>
+  </div>
+ </section>
+ <footer>© 2026 Ricky Jimenea. Based in Pampanga, Philippines.</footer>
+</main>
+
+<script>
+// Accordions
+document.querySelectorAll('.acc>button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var a=b.parentElement,o=a.classList.toggle('open');
+    b.setAttribute('aria-expanded',o);
+  });
+});
+// Menu and theme
+var nav=document.getElementById('nav'),mb=document.getElementById('menu');
+mb.addEventListener('click',function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+nav.addEventListener('click',function(e){if(e.target.tagName==='A'){nav.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
+document.getElementById('theme').addEventListener('click',function(){
+  var r=document.documentElement,d=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme=d?'light':'dark';
+});
+// Copy email
+document.getElementById('copy').addEventListener('click',function(){
+  var m=document.getElementById('msg'),e='jimenea.ricky.socmed@gmail.com';
+  try{navigator.clipboard.writeText(e).then(function(){m.textContent='Copied.'},function(){m.textContent=e})}catch(x){m.textContent=e}
+  setTimeout(function(){m.textContent=''},3000);
+});
+// Pipeline board: one deal moves per tick, closes, then resets
+(function(){
+  var deals=[].slice.call(document.querySelectorAll('.deal')),st=[0,0,0],turn=0,still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function draw(i){deals[i].style.left='calc('+st[i]*25+'% + 4px)';deals[i].classList.toggle('won',st[i]===3);deals[i].textContent=st[i]===3?(i===2?'Retained':'Closed won'):deals[i].dataset.name}
+  if(still){st=[3,3,3];deals.forEach(function(d,i){draw(i)});return}
+  deals.forEach(function(d,i){draw(i)});
+  setInterval(function(){
+    var i=turn%3;
+    if(st[i]<3){st[i]++;draw(i)}else{st[i]=0;draw(i)}
+    turn++;
+  },1100);
+})();
+</script>
+</body>
+</html>
